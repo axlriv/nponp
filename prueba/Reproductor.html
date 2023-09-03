@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Anomaly</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .fixed-content {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: #FFFF; /* Ajusta el color de fondo según tus preferencias */
+      padding: 10px; /* Añade espacio alrededor del contenido si es necesario */
+      margin: 10px; /* Añade margen alrededor del contenedor si es necesario */
+      max-width: 300px; /* Establece el ancho máximo del contenido */
+    }
+  </style>
+</head>
+<body>
+  <div class="fixed-content">
+    <div class='music-card playing'>
+      <div class='image'></div>
+        
+      <i class="fa fa-pause trigger" aria-hidden="true"></i>
+      <i class="fa fa-play trigger" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <!-- Coloca los enlaces a tus archivos JavaScript aquí, si es necesario -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script  src="./script.js"></script>
+</body>
+</html>
